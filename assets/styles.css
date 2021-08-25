@@ -23,7 +23,9 @@
 
 #nav #horizontal-list li{
     display: inline-block;
-    padding-left: 3%;
+    margin-left: 3%;
+    padding-top: 2px;
+    padding-bottom: 5px;
     font-size: 1em;
     color: gray;
     }
@@ -35,11 +37,15 @@
     #horizontal-list{
         padding-left: 25%;
         margin-top: -40px;
-        margin-bottom: 4px;
+        margin-bottom: 2px;
         margin-left: -3%;
         /* margin-right: 10px; */
     }
 
+    #nav #horizontal-list li:hover{
+        background-color: #4992ca;
+        color:#fff
+    }
     
     
     #horizontal-list li p{
@@ -132,6 +138,7 @@ color:white;
 background-color:  #4992ca;
 font-family: Avenir-Next,Roboto,sans-serif;
 padding: 1% 12% 10% 12%;
+font-size: 16px;
 
 }
 #middle,#para{
