@@ -448,16 +448,29 @@ flex-shrink: 2;
 }
 
 @media screen and (max-width:1000px){
-    .infooftrainer{
-        font-size:0.9em;
-    }
+    #sect{
+       padding-left: 0;
+   }
+   .infooftrainer{
+       font-size:0.8em;
+   } 
+   
 }
 @media screen and (max-width:700px){
-    .infooftrainer{
-        font-size:0.5em;
-    }
+   .infooftrainer{
+       flex-shrink: 0;
+   }
+   #part3{
+       padding-top: 10px;
+       margin-top: 40px;
+   }
+   #part2{
+       padding-top: 20px;
+   }
+   #sect{
+       padding-right: 0;
+   }
 }
-
 #ash{
 background-image: url(https://i.imgur.com/bIKBC6R.png);
 }
