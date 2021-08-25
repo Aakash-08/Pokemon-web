@@ -442,6 +442,17 @@ text-align:justify;
 flex-shrink: 2;
 }
 
+@media screen and (max-width:1000px){
+    .infooftrainer{
+        font-size:0.9em;
+    }
+}
+@media screen and (max-width:700px){
+    .infooftrainer{
+        font-size:0.5em;
+    }
+}
+
 #ash{
 background-image: url(https://i.imgur.com/bIKBC6R.png);
 }
